@@ -18,6 +18,8 @@ This repo contains a set of custom modules for use with ParaView[1].  These incl
 
 To use these, run 'Make' in the download directory.   This will invoke Kitware's 	python_filter_generator.py to create .xml files for each.   These can then be added to Paraview using Tools->Manage Plugins.
 
+**SampleDataSet**: Sample a volumetric dataset using a scalar variable as a probability function.  See the ReadMe in the SampleDensity subdirectory for more info.  This one requires Paraview 5.8.0 or newer.
+
 ## License
 
 ParaviewCustomModules have been developed primarily by Greg Abram with funding from the US Department of Energy's Office of Science ASCR program (Dr. Laura Biven, program manager) through sub-award from Los Alamos National Laboratory; and from the Texas Advanced Computing Center at the University of Texas at Austin.
